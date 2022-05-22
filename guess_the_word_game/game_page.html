@@ -1,6 +1,6 @@
 <!DOCTYPE html> <html>
      <head>
-          <title>Guess The Word</title>
+          <title>Math Quiz</title>
            <meta name="viewport" content="width=device-width, initial-scale=1"> 
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
@@ -14,15 +14,15 @@
 
                    <div class="container"> 
                        <center>
-                            <h2 style="color: rgb(255, 255, 255);">Guess The Word!</h2>
+                            <h2 style="color: rgb(255, 255, 255);"> Math Quiz!</h2>
                             <h3 id="player_question"></h3>
                             <h3 id="player_answer"></h3>
                             <div id="output" class="col-lg-6"> </div>
                              <br>
                               <br> 
-                              <label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+                               <input type="number" id="number1" class="form-control" placeholder="number1">
                                <br>
-                               <input type="text" id="word" class="form-control" placeholder="Word">
+                               <input type="number" id="number2" class="form-control" placeholder="number2">
                                <br>
                                <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
                                 </center>
